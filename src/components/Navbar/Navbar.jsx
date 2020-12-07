@@ -26,12 +26,12 @@ class Navbar extends React.Component {
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav left>
-                  <MDBNavItem active>
-                    <MDBNavLink to="/homepage">Homepage</MDBNavLink>
+                <MDBNavbarNav left className={styles.navItem}>
+                  <MDBNavItem active className={styles.navItem}>
+                    <MDBNavLink to="/homepage" >Homepage</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="/gallery">Gallery</MDBNavLink>
+                    <MDBNavLink to="/gallery" style={{color:'black'}}>Gallery</MDBNavLink>
                   </MDBNavItem>                  
                   <MDBNavItem>
                     <MDBNavLink to="/item">Item</MDBNavLink>
