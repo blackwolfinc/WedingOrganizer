@@ -32,10 +32,7 @@ class Navbar extends React.Component {
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink to="/gallery">Gallery</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="/gallery2">Gallery2</MDBNavLink>
-                  </MDBNavItem>
+                  </MDBNavItem>                  
                   <MDBNavItem>
                     <MDBNavLink to="/item">Item</MDBNavLink>
                   </MDBNavItem>

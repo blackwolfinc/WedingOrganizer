@@ -2,13 +2,6 @@ import React from 'react';
 import { MDBGallery, MDBGalleryList , MDBMask, MDBBox } from 'mdbreact';
 
 function GalleryWithGallery() {
-    const data = [
-        ['https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg',
-        'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg',
-        'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(71).jpg'
-    ],
-        []
-    ]
   const dataImg = [
     {
       img:
