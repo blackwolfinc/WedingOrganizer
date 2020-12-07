@@ -24,6 +24,11 @@
     box-shadow:  51px 50px 50px #0b0800, 
                  5px 5px 20px #0d0a00;
 }
+
+.containerCrausel2 iframe{
+border-radius: 20px;
+
+}
 .containerCrausel2 img {
     border-radius: 10px;
     opacity: 70%;
