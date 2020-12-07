@@ -5,7 +5,7 @@ const GalleryWithCard = () => {
   const array =[1,2,3,4,5,6,7,8,9,10]
   const card = (
     array.map(()=>(
-          <MDBCol md='3'>
+          <MDBCol md='3' style={{marginBottom:'0.1rem'}}>
             <MDBCard wide cascade>
               <MDBView cascade>
                 <MDBCardImage

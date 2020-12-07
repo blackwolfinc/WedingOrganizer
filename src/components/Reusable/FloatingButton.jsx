@@ -30,8 +30,7 @@ class FloatingButton extends React.Component {
   }
 
   render() {
-    return (
-      <section style={{ height: "200px" }}>
+    return (      
         <MDBBtnFixed
           onMouseEnter={this.onHover}
           onMouseLeave={this.onMouseLeave}
@@ -39,12 +38,13 @@ class FloatingButton extends React.Component {
           size="lg"
           color="Blue"
           icon="pencil-alt"
-          style={{ bottom: "45px", right: "24px" }}
+          style={{ bottom: "45px", right: "24px"}}
         >
           <MDBBtnFixedItem
             buttonStyle={this.state.buttonStyle}
             color="red"
             icon="star"
+            style={{width:'40px',height:'40px'}}
           />
           <MDBBtnFixedItem
             buttonStyle={this.state.buttonStyle}
@@ -61,8 +61,7 @@ class FloatingButton extends React.Component {
             color="blue"
             icon="shopping-cart"
           />
-        </MDBBtnFixed>
-      </section>
+        </MDBBtnFixed>      
     );
   }
 }
