@@ -2,7 +2,6 @@ import React from 'react'
 import { MDBBtnFixed, MDBBtnFixedItem } from "mdbreact";
 
 class FloatingButton extends React.Component {
-
   state = {
     buttonStyle: {
       transform: "scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0)",
@@ -32,7 +31,7 @@ class FloatingButton extends React.Component {
 
   render() {
     return (
-      <section style={{ height: "1000px" }}>
+      <section style={{ height: "200px" }}>
         <MDBBtnFixed
           onMouseEnter={this.onHover}
           onMouseLeave={this.onMouseLeave}
