@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { Component } from "react";
 import { MDBBtnFixed, MDBBtnFixedItem } from "mdbreact";
 
-class FloatingButton extends React.Component {
+class FloatingButton extends Component {
+
   state = {
     buttonStyle: {
       transform: "scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0)",
-      opacity: "1"
+      opacity: "0"
     }
   }
 
@@ -14,8 +15,7 @@ class FloatingButton extends React.Component {
     this.setState({
       buttonStyle: {
         transform: "scaleY(1) scaleX(1) translateY(0) translateX(0)",
-        opacity: "1",
-        backgroundColor:'blue'
+        opacity: "1"
       }
     });
   }
@@ -30,21 +30,21 @@ class FloatingButton extends React.Component {
   }
 
   render() {
-    return (      
+    return (
+      <section style={{ height: "1000px" }}>
         <MDBBtnFixed
           onMouseEnter={this.onHover}
           onMouseLeave={this.onMouseLeave}
           floating
           size="lg"
-          color="Blue"
+          color="red"
           icon="pencil-alt"
-          style={{ bottom: "45px", right: "24px"}}
+          style={{ bottom: "45px", right: "24px" }}
         >
           <MDBBtnFixedItem
             buttonStyle={this.state.buttonStyle}
             color="red"
             icon="star"
-            style={{width:'40px',height:'40px'}}
           />
           <MDBBtnFixedItem
             buttonStyle={this.state.buttonStyle}
@@ -61,7 +61,8 @@ class FloatingButton extends React.Component {
             color="blue"
             icon="shopping-cart"
           />
-        </MDBBtnFixed>      
+        </MDBBtnFixed>
+      </section>
     );
   }
 }
