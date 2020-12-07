@@ -27,6 +27,8 @@ const CarouselHomePage = () =>{
         <h1>Vanila Wedding Organizer</h1>
         <br/>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni autem est, sapiente saepe harum aliquid inventore distinctio quae obcaecati nulla!</p>
+          <br/>
+        <button className="btn btn-outline-elegant "><span className="text-warning">More Info</span></button>
         </div>
         
 
