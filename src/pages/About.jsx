@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar/Navbar";
 
 
 const About = () => {
   return (
     <>
-    <h1>mas tomo ganteng </h1>
+    <Navbar />
+    <h1 style={{marginTop:'4.3rem'}}>mas tomo ganteng about </h1>
     </>
   );
 };

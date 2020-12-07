@@ -6,7 +6,7 @@ import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor:'red'}}>
       <BrowserRouter>
        <Switch>
        <Route path="/item">
