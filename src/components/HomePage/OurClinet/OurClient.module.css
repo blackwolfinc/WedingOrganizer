@@ -1,0 +1,24 @@
+.container{
+
+   
+    height: 49.6rem; 
+    padding: 5% 5% 0px 5%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background: rgb(35,40,35);
+    background: linear-gradient(168deg, rgba(35,40,35,0.783333401720063) 7%, rgba(35,40,35,0.783333401720063) 26%, rgba(255,255,255,1) 82%); 
+}
+
+.secondcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: wheat;
+    color: black;
+}
+
+.kiri , .kanan{
+
+    padding: 2%;
+}

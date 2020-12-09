@@ -3,6 +3,11 @@
 }
 
 .bagas{
-    color:black !important;
+    color:white !important;
 }
 
+.LogoNavbar {
+    color: white;
+    font-size: large;
+    margin-left: 5%;
+}

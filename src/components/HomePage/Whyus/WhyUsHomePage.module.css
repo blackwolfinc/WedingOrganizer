@@ -1,0 +1,26 @@
+.container{
+
+    background-color:white;
+    height: 51rem; 
+    margin-top:7.05%;
+    padding: 5% 5% 0px 5%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+
+.secondcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: wheat;
+    color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.kiri , .kanan{
+
+    padding: 2%;
+}

@@ -4,6 +4,10 @@ import React, { Fragment } from "react";
 import { MDBBtn, MDBIcon } from "mdbreact";
 import FloatingButton from "../components/Reusable/FloatingButton";
 import Styles from "./homepage.module.css" ;
+import WhyUsHomePage from "../components/HomePage/Whyus/WhyUsHomePage";
+import OurClient from "../components/HomePage/OurClinet/OurClient";
+import FooterPage from "../components/Footer/FooterPage";
+import OurService from "../components/HomePage/OurService/OurService";
 
 const HomePage = () => {
   return (
@@ -11,11 +15,12 @@ const HomePage = () => {
     <Navbar />
     <div className={Styles.wrapper} >
         <CarouselHomePage />
-        
-        <div style={{height:'fit-content',width:'fit-content'}}>
-          <FloatingButton />
-        </div>
+        <WhyUsHomePage/>
+        <OurClient/>
+        <OurService/>
+        <FooterPage/>
     </div>
+   
     </>
   );
 };

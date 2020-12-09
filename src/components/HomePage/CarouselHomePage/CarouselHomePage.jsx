@@ -29,7 +29,7 @@ const CarouselHomePage = () =>{
         <div className={styles.containerCrauselmain}>
         {/* /crausel inti */}
         <div className={styles.containerCrausel}>
-        <h1>Vanila Wedding Organizer</h1>
+        <h1>Hazula Wedding Organizer</h1>
         <br/>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni autem est, sapiente saepe harum aliquid inventore distinctio quae obcaecati nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis consequatur optio dignissimos quia eum iste impedit doloremque dolore voluptate corrupti?</p>
           <br/>
